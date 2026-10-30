@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="cardtitle">
+<title id="cardtitle">TradeMove — A trading journal. A connected workflow.</title>
+<defs><linearGradient id="cardbg" x2="1" y2="1"><stop stop-color="#121b2d"/><stop offset="1" stop-color="#0a0f19"/></linearGradient><linearGradient id="link"><stop stop-color="#3b5bff"/><stop offset="1" stop-color="#8daaff"/></linearGradient></defs>
+<rect x="1" y="1" width="1198" height="348" rx="24" fill="url(#cardbg)" stroke="#2d3d5d"/>
+<path d="M24 1h1152" stroke="#4b68ff" stroke-width="2"/>
+<svg x="48" y="43" width="64" height="45" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 177" role="img" aria-labelledby="title">
+  <title id="title">TradeMove</title>
+  <defs>
+    <linearGradient id="tm-fold" x1="166" y1="88" x2="236" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D6E4FF"/>
+      <stop offset=".2" stop-color="#D6E4FF" stop-opacity=".9"/>
+      <stop offset=".55" stop-color="#4A84FF"/>
+      <stop offset="1" stop-color="#1E63FF"/>
+    </linearGradient>
+    <linearGradient id="tm-stem" x1="226" y1="58" x2="226" y2="171" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D63FF"/>
+      <stop offset="1" stop-color="#0B47E6"/>
+    </linearGradient>
+    <radialGradient id="tm-shadow" cx="204.25" cy="89" r="30" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#031033" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#031033" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tm-leg" x1="75" y1="58" x2="75" y2="165" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2A74FF"/>
+      <stop offset="1" stop-color="#0B47E6"/>
+    </linearGradient>
+  </defs>
+  <path d="M204.25 89 248 58.8V140.3L204.25 170.5Z" fill="url(#tm-stem)"/>
+  <path d="M204.25 89 248 58.8V140.3L204.25 170.5Z" fill="url(#tm-shadow)"/>
+  <path d="M154.25 123.5 158.7 67.6 248 6V58.8L204.25 89Z" fill="url(#tm-fold)"/>
+  <path d="M54.75 58 94.25 85.5V165L54.75 137.25Z" fill="url(#tm-leg)"/>
+  <path d="M54.75 58 94.25 85.5 54.75 111.75Z" fill="#3D86FF" fill-opacity=".55"/>
+  <path d="M8 11H104.25L188 99.5 154.25 123.5 83 50H8Z" fill="#F8FAFC"/>
+</svg>
+
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="127" y="76" fill="#f1f5ff" font-size="27" font-weight="700" letter-spacing="2">TRADE<tspan fill="#4d72ff">MOVE</tspan></text>
+<rect x="988" y="45" width="160" height="30" rx="15" fill="#14213f" stroke="#304780"/>
+<circle cx="1007" cy="60" r="3" fill="#8ca7ff"/><text x="1020" y="65" fill="#a9bfff" font-size="11" letter-spacing="1">BUILDING THE BETA</text>
+<text x="49" y="156" fill="#eef3ff" font-size="43" font-weight="700" letter-spacing="-1.5">A trading journal.</text>
+<text x="49" y="209" fill="#9eb9f7" font-size="43" font-weight="700" letter-spacing="-1.5">A connected workflow.</text>
+<text x="51" y="265" fill="#a0adc3" font-size="17">MT5 integrations · Analytics · AI-assisted review</text>
+<text x="51" y="310" fill="#7f9aff" font-size="14">Explore TradeMove</text><path d="M199 304h12m-5-5 5 5-5 5" fill="none" stroke="#7f9aff" stroke-width="1.5"/>
+<g transform="translate(740 117)">
+<path d="M24 29v125" stroke="url(#link)" stroke-width="2"/>
+<g fill="#14213b" stroke="#354f95"><rect width="50" height="50" rx="15"/><rect y="68" width="50" height="50" rx="15"/><rect y="136" width="50" height="50" rx="15"/></g>
+<g fill="#8faeff" font-size="13" font-family="monospace"><text x="16" y="30">01</text><text x="16" y="98">02</text><text x="16" y="166">03</text></g>
+<g fill="#e7efff" font-size="18" font-weight="700"><text x="72" y="24">Prepare</text><text x="72" y="92">Document</text><text x="72" y="160">Understand</text></g>
+<g fill="#8b9db7" font-size="13"><text x="72" y="44">News, context and a plan</text><text x="72" y="112">Trades, decisions and notes</text><text x="72" y="180">Patterns, review and next steps</text></g>
+</g>
+</g></svg>
