@@ -6,9 +6,9 @@
 
 <p align="center">
   <a href="#about-me">About</a> &nbsp; / &nbsp;
-  <a href="#selected-work">Selected work</a> &nbsp; / &nbsp;
-  <a href="#toolkit">Toolkit</a> &nbsp; / &nbsp;
-  <a href="https://www.linkedin.com/in/francesco-fischetti-7325791ba/">Let’s talk ↗</a>
+  <a href="#selected-work">Work</a> &nbsp; / &nbsp;
+  <a href="#toolkit">Stack</a> &nbsp; / &nbsp;
+  <a href="https://www.linkedin.com/in/francesco-fischetti-7325791ba/">Contact ↗</a>
 </p>
 
 ### About me
