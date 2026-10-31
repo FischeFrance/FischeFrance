@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 177" role="img" aria-labelledby="title">
+  <title id="title">TradeMove</title>
+  <defs>
+    <linearGradient id="tm-fold" x1="166" y1="88" x2="236" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D6E4FF"/>
+      <stop offset=".2" stop-color="#D6E4FF" stop-opacity=".9"/>
+      <stop offset=".55" stop-color="#4A84FF"/>
+      <stop offset="1" stop-color="#1E63FF"/>
+    </linearGradient>
+    <linearGradient id="tm-stem" x1="226" y1="58" x2="226" y2="171" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D63FF"/>
+      <stop offset="1" stop-color="#0B47E6"/>
+    </linearGradient>
+    <radialGradient id="tm-shadow" cx="204.25" cy="89" r="30" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#031033" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#031033" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tm-leg" x1="75" y1="58" x2="75" y2="165" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2A74FF"/>
+      <stop offset="1" stop-color="#0B47E6"/>
+    </linearGradient>
+  </defs>
+  <path d="M204.25 89 248 58.8V140.3L204.25 170.5Z" fill="url(#tm-stem)"/>
+  <path d="M204.25 89 248 58.8V140.3L204.25 170.5Z" fill="url(#tm-shadow)"/>
+  <path d="M154.25 123.5 158.7 67.6 248 6V58.8L204.25 89Z" fill="url(#tm-fold)"/>
+  <path d="M54.75 58 94.25 85.5V165L54.75 137.25Z" fill="url(#tm-leg)"/>
+  <path d="M54.75 58 94.25 85.5 54.75 111.75Z" fill="#3D86FF" fill-opacity=".55"/>
+  <path d="M8 11H104.25L188 99.5 154.25 123.5 83 50H8Z" fill="#F8FAFC"/>
+</svg>

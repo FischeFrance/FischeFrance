@@ -1,46 +1,78 @@
 <picture>
-  <img alt="Francesco Fischetti — From code. To product. Software developer and digital product builder." src="./assets/profile-cover.png" width="1200">
+  <source media="(max-width: 600px)" srcset="./assets/profile-cover-mobile.png">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile-cover-v2.png">
+  <img src="./assets/profile-cover-v2.gif" width="1200" alt="Francesco Fischetti. Ideas into real products. Software Developer at Relewant, building TradeMove and digital projects.">
 </picture>
 
-### Hi, I’m Francesco.
+<p align="center">
+  <a href="#about-me">About</a> &nbsp; / &nbsp;
+  <a href="#selected-work">Selected work</a> &nbsp; / &nbsp;
+  <a href="#toolkit">Toolkit</a> &nbsp; / &nbsp;
+  <a href="https://www.linkedin.com/in/francesco-fischetti-7325791ba/">Let’s talk ↗</a>
+</p>
 
-I build backends, apps and websites — and enjoy connecting the engineering behind a product with the experience of using it.
+### About me
 
-By day, I work as a **Software Developer at Relewant**, in Chiasso, Switzerland. Alongside that, I’m building **TradeMove** and developing digital projects of my own.
+**I’m Francesco — a developer with a product mindset.**
 
-**My direction:** turn ideas into useful products, follow them through to release, and keep improving them.
+I work with **Java and Spring at Relewant**, in Chiasso. Outside work, I build apps and websites of my own: from the first idea and the interface to the integrations that make them work.
+
+My main project is **TradeMove**. My direction is to build my own business through useful digital products.
 
 <br>
 
+### Selected work
+
 <a href="https://www.trademove.tech/">
-  <img src="./assets/trademove-project.png" alt="TradeMove — my main product project. Trading journal, MT5 integrations, analytics and AI-assisted review. Explore TradeMove." width="1200">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/trademove-feature-mobile.png">
+    <img src="./assets/trademove-feature.png" width="1200" alt="TradeMove — a platform I’m building for trading preparation, journaling and analytics. Public product screenshot with illustrative data. Explore the product.">
+  </picture>
 </a>
 
-### Currently building · TradeMove
+**My work:** product concept, interface design, development, integrations and deployment.
 
-A platform that connects trading preparation, execution and review. I work on the product concept, interfaces, backend integrations and deployment.
-
-- **Connect:** MetaTrader 5 integrations and account history.
-- **Document:** a trading journal, Case Studies, Playbooks and Highlights.
-- **Understand:** performance analytics, economic news, COT reports and AI-assisted review.
+MT5 connections · Trading Journal · Playbooks & Case Studies · Performance analytics · News & COT reports · AI-assisted review
 
 [**Explore TradeMove ↗**](https://www.trademove.tech/)
 
 <br>
 
-### What I work with
+<a href="https://pablofrancesconi.com/">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/pablo-project-mobile.png">
+    <img src="./assets/pablo-project.png" width="1200" alt="Pablo Francesconi — an editorial website I developed for his personal brand, resources and community. Visit pablofrancesconi.com.">
+  </picture>
+</a>
 
-| Backend & data | Apps & interfaces | Integration & delivery |
-| :--- | :--- | :--- |
-| Java · Spring Boot · Spring Batch | React · Next.js · TypeScript | REST APIs · Supabase · PostgreSQL |
-| Oracle · SQL | Responsive UI · Product workflows | Vercel · Git · AI integrations |
+<a href="https://pizzeria-magica.vercel.app/">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/magica-project-mobile.png">
+    <img src="./assets/magica-project.png" width="1200" alt="Pizzeria Magica — a restaurant website and tools for content and reservations. Open the public website preview.">
+  </picture>
+</a>
 
-### Beyond the main project
+<br>
 
-I also build websites and tools for real businesses, including **Pizzeria Magica** and **Pablo Francesconi’s website**. Different contexts, the same interest: shaping an idea into something people can use.
+### Toolkit
+
+**Backend** &nbsp; `Java` `Spring Boot` `Spring Batch` `Oracle` `SQL`
+
+**Interfaces** &nbsp; `React` `Next.js` `TypeScript` `Responsive UI`
+
+**Product infrastructure** &nbsp; `Supabase` `PostgreSQL` `REST APIs` `Vercel` `Git`
+
+<details>
+<summary><b>How these fit together</b></summary>
+
+I use Java and Spring in my professional backend work. In my own products, React and TypeScript connect the interface to data, external services and AI features. I follow these projects through development, publication and ongoing improvements.
+
+</details>
 
 ---
 
-**Have a product or a collaboration in mind?** [Let’s connect on LinkedIn ↗](https://www.linkedin.com/in/francesco-fischetti-7325791ba/)
+### An idea worth building?
 
-<sub>Francesco Fischetti · FischeFrance · Backend, apps & digital products.</sub>
+A product, a website, or a collaboration — **[let’s talk on LinkedIn ↗](https://www.linkedin.com/in/francesco-fischetti-7325791ba/)**
+
+<sub>Francesco Fischetti / FischeFrance &nbsp; · &nbsp; Backend. Interfaces. Products.</sub>

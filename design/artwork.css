@@ -1,0 +1,121 @@
+
+
+@font-face{font-family:Space;src:url('./fonts/space-grotesk-regular.ttf')}
+
+@font-face{font-family:Space;src:url('./fonts/space-grotesk-bold.ttf');font-weight:700}
+
+*{box-sizing:border-box}
+html,body{margin:0}
+body{width:1200px;color:#edf2ff;background:transparent;font-family:Space,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+main{display:none;position:relative;overflow:hidden}
+body.hero #hero,body.feature #feature,body.pablo #pablo,body.magica #magica,body.avatar #avatar{display:block}
+.surface{background:#0b101b;border:1px solid #28344a;border-radius:26px}
+.eyebrow{font:14px/1.3 Space,sans-serif;letter-spacing:2px;text-transform:uppercase;color:#9baed2}
+.muted{color:#93a2bc}
+.blue{color:#7392ff}
+.mono{font-family:ui-monospace,SFMono-Regular,monospace}
+.mark{width:44px;height:44px;fill:currentColor}
+.grain{position:absolute;inset:0;background-image:radial-gradient(#64749a44 .6px,transparent .6px);background-size:20px 20px;mask-image:linear-gradient(110deg,transparent 45%,#000);pointer-events:none}
+.pill{display:inline-flex;align-items:center;gap:9px;border:1px solid #38527b;border-radius:100px;padding:9px 14px;font-size:12px;letter-spacing:1px;color:#bccbf1}
+.pill i{width:6px;height:6px;background:#7199ff;border-radius:50%}
+.arrow{color:#99b1ff;font-size:25px}
+.name{display:flex;align-items:center;gap:15px;font-weight:700;font-size:22px;letter-spacing:-.8px}
+.name .mark{color:#adbdff;width:31px;height:31px}
+
+#hero{height:460px;padding:37px 48px;background:radial-gradient(ellipse at 84% 40%,#1d367753 0,transparent 50%),linear-gradient(116deg,#101724,#080c14 70%)}
+#hero:after{content:'';position:absolute;inset:1px;border-radius:25px;border-top:1px solid #a1baff25;pointer-events:none}
+.hero-top{display:flex;justify-content:space-between;align-items:center}
+.hero-kicker{color:#7f99cf;font-size:11px;letter-spacing:2px}
+.hero-copy{position:relative;z-index:2;margin-top:39px;max-width:730px}
+h1{font-weight:700;font-size:79px;line-height:1.05;letter-spacing:-5.5px;margin:0}
+h1 span{color:#91aaff;background:linear-gradient(100deg,#5777ff,#b0c5ff);background-clip:text;-webkit-text-fill-color:transparent}
+.hero-copy p{font-size:17px;line-height:1.5;margin:23px 0 0;color:#9eacc3}
+.hero-bottom{position:absolute;left:48px;right:48px;bottom:27px;display:flex;justify-content:space-between;align-items:center;border-top:1px solid #596f9730;padding-top:16px;font-size:12px;color:#7f91af}
+.hero-bottom strong{color:#c4d0e8;font-weight:400}
+.hero-bottom .disc{display:inline-block;width:5px;height:5px;border-radius:50%;background:#94adff;margin:0 9px 2px 0}
+.hero-art{position:absolute;width:410px;height:350px;right:22px;top:79px;perspective:900px}
+.orbit{position:absolute;width:310px;height:310px;left:40px;top:14px;border:1px solid #607fb22a;border-radius:50%;transform:rotateX(62deg) rotateZ(-30deg)}
+.orbit.second{transform:rotateX(35deg) rotateY(38deg) rotateZ(25deg);width:280px;height:280px;left:57px;top:29px}
+.orbital-glow{position:absolute;inset:-50px;background:radial-gradient(#4263ff2c,transparent 60%);animation:breathe 5s ease-in-out infinite}
+.ff-plane{position:absolute;left:82px;top:53px;width:235px;height:235px;border-radius:42px;transform:rotateX(13deg) rotateY(-24deg) rotateZ(8deg);box-shadow:23px 26px 70px #0006,0 0 100px #3158ee20;overflow:hidden;background:linear-gradient(135deg,#6986da20,#152143);border:1px solid #8caaff65}
+.ff-plane:before{content:'';position:absolute;inset:-100%;background:linear-gradient(110deg,transparent 39%,#c5d8ff15 48%,transparent 56%);animation:sweep 5s ease-in-out infinite}
+.ff-plane svg{position:absolute;inset:42px;width:150px;height:150px;filter:drop-shadow(7px 11px 5px #0004)}
+.float-tag{position:absolute;padding:9px 13px;border-radius:10px;background:#101b2af0;border:1px solid #354d73;color:#8faddd;font:10px Space,sans-serif;letter-spacing:1px;box-shadow:0 15px 30px #0005}
+.float-tag.first{right:7px;top:54px;transform:rotate(4deg)}
+.float-tag.last{left:0;bottom:43px;transform:rotate(-5deg)}
+.path-node{position:absolute;width:7px;height:7px;background:#9bb8ff;border-radius:50%;box-shadow:0 0 20px #7ba0ff;right:68px;bottom:65px;animation:breathe 5s ease-in-out infinite}
+@keyframes breathe{0%,100%{opacity:.5;transform:scale(.97)}
+50%{opacity:1;transform:scale(1.03)}
+}
+@keyframes sweep{0%,15%{transform:translateX(-12%)}
+85%,100%{transform:translateX(12%)}
+}
+
+#feature{height:845px;background:radial-gradient(ellipse at 90% 0,#223b7a55,transparent 50%),linear-gradient(130deg,#111b2c,#0b1019);padding:42px 48px 0}
+.feature-head{display:flex;align-items:center;justify-content:space-between}
+.tm-brand{display:flex;gap:14px;align-items:center;font-size:27px;font-weight:700;letter-spacing:1px}
+.tm-brand img{width:52px;height:38px}
+.tm-brand span span{color:#5579ff}
+.feature-intro{display:flex;justify-content:space-between;align-items:flex-end;margin-top:27px}
+.feature-intro h2{font-size:49px;line-height:1.1;letter-spacing:-2px;font-weight:700;margin:0}
+.feature-intro p{font-size:15px;line-height:1.65;color:#9daec8;width:335px;margin:0 0 2px}
+.project-screen{margin:34px auto 0;border:1px solid #536e9e65;border-radius:17px 17px 0 0;padding:9px 9px 0;background:#172034;box-shadow:0 20px 90px #0008;overflow:hidden;width:1102px}
+.browser-bar{height:25px;display:flex;align-items:center;justify-content:center;color:#788cab;font-size:9px;letter-spacing:.6px;position:relative}
+.browser-dots{position:absolute;left:7px;display:flex;gap:5px}
+.browser-dots i{background:#536683;width:5px;height:5px;border-radius:50%}
+.screen-clip{height:540px;overflow:hidden;border-radius:8px 8px 0 0}
+.screen-clip img{display:block;width:100%}
+.feature-foot{position:absolute;left:0;right:0;bottom:0;padding:43px 48px 24px;background:linear-gradient(transparent,#0b1019 48%);display:flex;align-items:end;justify-content:space-between;font-size:12px;color:#9daec8}
+.feature-foot a{color:#b4c6ff;text-decoration:none;font-size:15px}
+
+.website{height:310px;padding:37px 42px;background:radial-gradient(at 95% 20%,#1b2945,#0c111a 75%)}
+.website .eyebrow{font-size:11px;color:#8192af}
+.website h2{margin:16px 0 11px;font-size:41px;line-height:1.08;letter-spacing:-1.7px;position:relative;z-index:3;width:400px}
+.website p{color:#95a4bc;font-size:15px;line-height:1.6;max-width:400px;margin:0}
+.website .project-link{margin-top:22px;color:#a4b9eb;font-size:12px;display:flex;align-items:center;gap:18px}
+.website .website-shot{position:absolute;right:-32px;top:28px;transform:rotate(-5deg);width:610px;border:1px solid #55678188;border-radius:12px;padding:7px;background:#182337;box-shadow:0 15px 40px #0009;overflow:hidden;z-index:1}
+.website-shot img{display:block;width:100%;border-radius:5px}
+.website:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#0c111a00 32%,#0c111a 38%,#0c111a00 65%);pointer-events:none;z-index:2}
+.website .website-copy{position:relative;z-index:3}
+.website.magica{background:radial-gradient(at 90% 30%,#542d2022,#0c111a 75%)}
+.website.magica .project-link{color:#d0ad91}
+
+#avatar{width:640px;height:640px;border-radius:0;background:radial-gradient(ellipse at 25% 5%,#3c5ed6,#111f4d 60%,#0b101e);padding:130px}
+#avatar:before{content:'';position:absolute;inset:45px;border:1px solid #91b5ff55;border-radius:135px;transform:rotate(-8deg)}
+#avatar svg{width:380px;height:380px;filter:drop-shadow(13px 20px 8px #03081877)}
+
+body.mobile{width:720px}
+body.mobile #hero{height:540px;padding:34px 34px}
+.mobile .hero-kicker{font-size:10px;max-width:110px;text-align:right;line-height:1.6}
+.mobile .name{font-size:22px;gap:10px;letter-spacing:-.6px}
+.mobile .name .mark{width:28px}
+.mobile .hero-copy{margin-top:53px;max-width:590px}
+.mobile h1{font-size:65px;letter-spacing:-3.8px;line-height:1.08}
+.mobile .hero-copy p{font-size:20px;max-width:410px;line-height:1.5;margin-top:25px}
+.mobile .hero-art{right:8px;top:252px;transform:scale(.53);transform-origin:top right}
+.mobile .hero-art .float-tag{display:none}
+.mobile .hero-bottom{left:34px;right:34px;bottom:28px;font-size:15px;gap:12px;align-items:flex-start;line-height:1.4}
+.mobile .hero-bottom span:last-child{max-width:255px;text-align:right}
+.mobile #feature{height:785px;padding:33px 32px 0}
+.mobile .tm-brand{font-size:27px}
+.mobile #feature .pill{font-size:9px;padding:8px 10px;letter-spacing:.5px}
+.mobile .feature-intro{display:block;margin-top:29px}
+.mobile .feature-intro h2{font-size:43px;letter-spacing:-1.6px}
+.mobile .feature-intro p{font-size:19px;width:580px;margin-top:15px;line-height:1.5}
+.mobile .project-screen{width:654px;margin:29px auto 0}
+.mobile .screen-clip{height:340px}
+.mobile .feature-foot{padding:42px 32px 25px;font-size:14px}
+.mobile .feature-foot span{max-width:355px}
+.mobile .feature-foot a{font-size:18px}
+.mobile .website{height:430px;padding:28px 30px}
+.mobile .website h2{font-size:42px;width:630px;margin-top:16px}
+.mobile .website p{max-width:430px;font-size:18px}
+.mobile .website .eyebrow{font-size:13px}
+.mobile .website .project-link{font-size:15px;margin-top:17px}
+.mobile .website .website-shot{width:440px;top:211px;right:-10px;transform:rotate(-6deg);z-index:1}
+.mobile .website:after{background:linear-gradient(180deg,#0c111a00 46%,#0c111a 55%,#0c111a00 83%)}
+.mobile .website .website-copy{z-index:4}
+
+@media(prefers-reduced-motion:reduce){*{animation:none!important}
+}
+
